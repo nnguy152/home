@@ -1,0 +1,31 @@
+.Header {
+  font-family: 'Orbitron';
+  /* font-family: '8BITWONDERNominal'; 
+  font-weight: normal; 
+  font-style: normal;  */
+  padding:1rem 5rem;
+}
+
+.Header h1 {
+  line-height: 50px;
+  display:inline;
+  color: rgb(247, 217, 227);
+}
+
+nav {
+  padding-left: 0;
+  list-style: none;
+  float:right;
+}
+
+nav li {
+  display:inline-block;
+  list-style-type: none;
+  padding: 5px 1rem;
+  color: rgb(247, 217, 227);
+}
+
+li:hover {
+  color: rgb(17, 16, 20);
+  background-color: #9C3F5F;
+}

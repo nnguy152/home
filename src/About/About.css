@@ -1,0 +1,15 @@
+h1 {
+  text-align: center;
+  font-family: 'Orbitron';
+  margin: 0 auto;
+}
+section {
+  display: flex;
+  text-align: center;
+}
+p {
+  padding: 0 40px;
+}
+img {
+  width: 100px;
+}
