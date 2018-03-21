@@ -1,9 +1,6 @@
 .Header {
   font-family: 'Orbitron';
-  /* font-family: '8BITWONDERNominal'; 
-  font-weight: normal; 
-  font-style: normal;  */
-  padding:1rem 5rem;
+  padding: 1rem 5rem;
 }
 
 .Header h1 {
@@ -25,7 +22,41 @@ nav li {
   color: rgb(247, 217, 227);
 }
 
-li:hover {
+/* styling for hover and dropdown list */
+li:hover, .dropbtn, .dropdown-content a:hover {
   color: rgb(17, 16, 20);
   background-color: #9C3F5F;
+}
+
+.dropbtn {
+  font-family: 'Orbitron';
+  font-size: 16px;
+  background-color: rgb(17, 16, 20);
+  border: none;
+  color: rgb(247, 217, 227);
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  background-color:rgba(17, 16, 20, 0.5);
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(247, 217, 227);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }

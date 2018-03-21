@@ -11,7 +11,13 @@ class Header extends Component {
           <ul>
             <a href='#'><li>Home</li></a>
             <a href='#about'><li>About</li></a>
-            <a href='#second'><li>Portfolio</li></a>
+            <div class="dropdown">
+              <li class="dropbtn">Portfolio</li>
+              <div class="dropdown-content">
+                <a href="#portfolio">My Projects</a>
+                <a href="#">My Art</a>
+              </div>
+            </div>
             <a href='#third'><li>Resume</li></a>
             <a href='#last'><li>Contact Me</li></a>
           </ul>

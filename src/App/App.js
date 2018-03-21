@@ -3,6 +3,7 @@ import { Parallax, Background } from 'react-parallax';
 import '../App/App.css';
 import Header from '../Header/Header'
 import About from '../About/About'
+import Portfolio from '../Portfolio/Portfolio'
 import Footer from '../Footer/Footer'
 
 const img0 = "https://img00.deviantart.net/780c/i/2015/019/4/e/sky_lanterns_by_wlop-d7b5nfg.jpg"
@@ -17,19 +18,18 @@ class App extends Component {
         </header>
 
         <Parallax bgImage={img0} strength={500}>
-          <div style={{ height: 400 }} id="about"></div>
+          <div style={{ height: 400 }} />
         </Parallax>
 
-        <p className="about-section">
-          <About />
-        </p>
+        <anchor id="about" />
+        <About />
 
         <Parallax bgImage={img1} strength={500}>
-          <div style={{ height: 400 }}  id="second" />
+          <div style={{ height: 400 }} id="portfolio" />
         </Parallax>
 
-        <p className="about">
-          <About />
+        <p >
+          <Portfolio />
         </p>
 
         <Parallax bgImage={img0} strength={500}>
@@ -43,7 +43,7 @@ class App extends Component {
         <Parallax bgImage={img1} strength={500}>
           <div style={{ height: 400 }} id="last" />
         </Parallax>
-        
+
         <p className="about">
           <About />
         </p>
@@ -52,7 +52,7 @@ class App extends Component {
           <div style={{ height: 400 }}></div>
         </Parallax>
 
-        <footer className="App-header">
+        <footer>
           <Footer />
         </footer>
       </div>
