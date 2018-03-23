@@ -12,5 +12,19 @@ section {
 }
 .p {
   margin: 0 auto;
-  padding: 0 40px;
+}
+
+.gif {
+  width: 400px;
+  border: 2px solid #9C3F5F;
+  padding: 2px;
+}
+
+.line {
+  height: 2px;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 200, from(#9C3F5F), to(white));
+}
+.line-bottom {
+  margin-top: -4px;
+  padding-top: 2px;
 }

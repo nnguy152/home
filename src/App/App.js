@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Parallax, Background } from 'react-parallax';
-import '../App/App.css';
-import Header from '../Header/Header'
+import { Parallax } from 'react-parallax';
+import './App.css';
 import About from '../About/About'
 import Portfolio from '../Portfolio/Portfolio'
 import Footer from '../Footer/Footer'
@@ -13,43 +12,59 @@ class App extends Component {
   render() {
     return (
       <div>
-        <header>
-          <Header />
-        </header>
-
         <Parallax bgImage={img0} strength={500}>
-          <div style={{ height: 400 }} />
+          <div className="parallax-height" id="about">
+            <h2 className="image-text first-image-text">
+              HIHIHIHIHIHIHIHIIHIHIHIHIHI
+              <span className="type">&nbsp;</span>
+            </h2>
+          </div>
         </Parallax>
 
-        <anchor id="about" />
         <About />
 
         <Parallax bgImage={img1} strength={500}>
-          <div style={{ height: 400 }} id="portfolio" />
+          <div className="parallax-height" id="portfolio" >
+            <h2 className="image-text">
+              hi hi TEXT HERE 2
+            </h2>
+          </div>
         </Parallax>
-
-        <p >
+        
+        <div>
           <Portfolio />
-        </p>
+        </div>
 
         <Parallax bgImage={img0} strength={500}>
-          <div style={{ height: 400 }} id="third" />
+          <div className="parallax-height" id="third" >
+            <h2 className="image-text">
+              hi HIHIH TEXT THREEEE
+            </h2>
+          </div>
         </Parallax>
 
-        <p className="about">
+        <div className="about">
           <About />
-        </p>
+        </div>
 
         <Parallax bgImage={img1} strength={500}>
-          <div style={{ height: 400 }} id="last" />
+          <div className="parallax-height" id="last" >
+            <h2 className="image-text">
+              hi HIHIHI TEXT LAST
+            </h2>
+          </div>
         </Parallax>
 
-        <p className="about">
+        <div className="about">
           <About />
-        </p>
+        </div>
 
         <Parallax bgImage={img0} strength={500}>
-          <div style={{ height: 400 }}></div>
+          <div className="parallax-height" id="third" >
+            <h2 className="image-text">
+              hi hi there is text in here or something
+            </h2>
+          </div>
         </Parallax>
 
         <footer>

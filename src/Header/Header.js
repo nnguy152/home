@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom'
-import '../Header/Header.css'
+import './Header.css'
 
 class Header extends Component {
   render() {
@@ -11,9 +10,9 @@ class Header extends Component {
           <ul>
             <a href='#'><li>Home</li></a>
             <a href='#about'><li>About</li></a>
-            <div class="dropdown">
-              <li class="dropbtn">Portfolio</li>
-              <div class="dropdown-content">
+            <div className="dropdown">
+              <li className="dropbtn">Portfolio</li>
+              <div className="dropdown-content">
                 <a href="#portfolio">My Projects</a>
                 <a href="#">My Art</a>
               </div>

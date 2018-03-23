@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import '../Portfolio/Portfolio.css'
+import './Portfolio.css'
+
+const image = require('./towergif.gif')
 
 class Portfolio extends Component {
   render() {
@@ -9,19 +11,27 @@ class Portfolio extends Component {
         <section>
           <div className="p">
             <h3>&#123; Tower of Hanoi &#125;</h3>
-            <p>Image Here</p>
+            <div className="line" />
+            <img src={image} alt="parallax" className="gif" />
+            <div className="line line-bottom" />
           </div>
           <div className="p">
             <h3>&#123; Con-A-Thon &#125;</h3>
-            <p>Image Here</p>
+            <div className="line" />
+            <img src={image} alt="parallax" className="gif" />
+            <div className="line line-bottom" />
           </div>
           <div className="p">
             <h3>&#123; React App &#125;</h3>
-            <p>Image Here</p>
+            <div className="line" />
+            <img src={image} alt="parallax" className="gif" />
+            <div className="line line-bottom" />
           </div>
           <div className="p">
             <h3>&#123; SomeOtherApp &#125;</h3>
-            <p>Image Here</p>
+            <div className="line" />
+            <img src={image} alt="parallax" className="gif" />
+            <div className="line line-bottom" />
           </div>
         </section>
       </div>

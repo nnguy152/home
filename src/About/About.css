@@ -10,7 +10,7 @@ section {
   display: flex;
   text-align: center;
 }
-p {
+.about-sections {
   margin: 0 auto;
   padding: 0 40px;
 }
