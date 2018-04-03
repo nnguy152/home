@@ -5,15 +5,36 @@ h1 {
   text-align: center;
   font-family: 'Orbitron';
   margin: 0 0 40px 0;
+  font-size: 45px;
+}
+h3 {
+  font-size: 25px;
 }
 section {
   display: flex;
-  text-align: center;
 }
 .about-sections {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 30px;
+  width: 300px;
 }
 img {
   width: 100px;
+}
+.icon {
+  margin: 0 auto;
+}
+@keyframes icon-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.icon:hover {
+  animation: icon-spin infinite 400ms linear;
 }

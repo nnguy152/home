@@ -15,9 +15,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "deploy" : "npm run build&&gh-pages -d build"
+    "deploy": "npm run build&&gh-pages -d build"
   },
-  "homepage": "https://nnguy152.github.io/react-portfolio",
+  "homepage": "https://nnguy152.github.io/home",
   "devDependencies": {
     "gh-pages": "^1.1.0"
   }

@@ -12,19 +12,35 @@ section {
 }
 .p {
   margin: 0 auto;
+  padding: 0 10px;
 }
-
+.proj-description {
+  width: 400px;
+}
 .gif {
   width: 400px;
-  border: 2px solid #9C3F5F;
-  padding: 2px;
+  border: 2px solid #9c3f5f;
+  padding: 3px;
 }
 
 .line {
   height: 2px;
-  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 200, from(#9C3F5F), to(white));
+  background: -webkit-gradient(
+    radial,
+    50% 50%,
+    0,
+    50% 50%,
+    200,
+    from(#9c3f5f),
+    to(white)
+  );
 }
 .line-bottom {
   margin-top: -4px;
   padding-top: 2px;
+}
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 150px;
 }
