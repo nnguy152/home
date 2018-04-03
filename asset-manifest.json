@@ -1,9 +1,10 @@
 {
-  "main.css": "static/css/main.981ef2eb.css",
-  "main.css.map": "static/css/main.981ef2eb.css.map",
-  "main.js": "static/js/main.ce10daf6.js",
-  "main.js.map": "static/js/main.ce10daf6.js.map",
+  "main.css": "static/css/main.2bea9582.css",
+  "main.css.map": "static/css/main.2bea9582.css.map",
+  "main.js": "static/js/main.c5d67a35.js",
+  "main.js.map": "static/js/main.c5d67a35.js.map",
   "static/media/glasses.png": "static/media/glasses.f4519f3c.png",
   "static/media/heart.png": "static/media/heart.83649de9.png",
-  "static/media/person.png": "static/media/person.3d392839.png"
+  "static/media/person.png": "static/media/person.3d392839.png",
+  "static/media/towergif.gif": "static/media/towergif.f93b0906.gif"
 }
