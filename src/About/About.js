@@ -14,10 +14,10 @@ class About extends Component {
               className="icon"
             />
             <h3>&#123; Me &#125;</h3>
-            I am a full-stack web developer who takes in pride in my yearning
+            <p>I am a full-stack web developer who takes in pride in my yearning
             for some learning- to improve my skills and push myself to the next
             level. Every new thing I learn about coding opens up the door to a
-            thousand new unknowns that I can't wait to explore.
+            thousand new unknowns that I can't wait to explore.</p>
           </div>
           <div className="about-sections">
             <img
@@ -26,8 +26,8 @@ class About extends Component {
               className="icon"
             />
             <h3>&#123; Skills &#125;</h3>
-            Including, but not limited to: HTML, CSS, Javascript, Express,
-            MongoDB, Handlebars, React, Redux, Ruby, Ruby on Rails
+            <p>Including, but not limited to: HTML, CSS, JavaScript, Express.js,
+            MongoDB, Handlebars, React.js, Ruby, Ruby on Rails, and Adobe Photoshop</p>
           </div>
           <div className="about-sections">
             <img
@@ -36,10 +36,8 @@ class About extends Component {
               className="icon"
             />
             <h3>&#123; Fun &#125;</h3>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-            Pellentesque dolor enim, luctus ac nisi vitae, consequat molestie
-            sapien. Proin finibus commodo mi, nec rutrum risus semper at.
-            Phasellus cursus efficitur vehicula.
+            <p>When I'm not working on projects, my favorite thing to do is
+            hang out with my dog, hike, draw, and netflix && chill. </p>
           </div>
         </section>
       </div>

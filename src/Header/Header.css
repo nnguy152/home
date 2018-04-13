@@ -6,13 +6,21 @@
   top: 0; 
   z-index: 1;
   box-shadow: 0px 8px 16px 0px rgba(17,16,20,0.7);
-
 }
+.name-home {
+  text-decoration: none;
+}
+ul {
+  margin: 0 auto;
+}
+
 .Header h1 {
   line-height: 50px;
   display:inline;
   color: rgb(247, 217, 227);
+  text-decoration: none;
 }
+
 nav {
   padding-left: 0;
   list-style: none;
@@ -49,18 +57,61 @@ li:hover, .dropbtn, .dropdown-content a:hover {
   background-color:rgba(17, 16, 20, 0.5);
   display: none;
   position: absolute;
-  min-width: 160px;
+  top: 65px;
+  left: -93px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
   color: rgb(247, 217, 227);
-  padding: 12px 16px;
+  padding: 8px 16px;
   text-decoration: none;
   display: block;
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.hamburger-line {
+  width: 35px;
+  height: 5px;
+  background-color: rgb(247, 217, 227);
+  margin: 6px 0;
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .menu-items {
+    display: none;
+  }
+  .hamburger-line {
+    display: block;
+  }
+  .Header {
+    padding: 16px 50px;
+  }
+  .Header h1 {
+    font-size: 40px;
+  }
+}   
+
+@media screen and (max-width: 600px) {
+  .menu-items {
+    display: none;
+  }
+  .hamburger-line {
+    display: block;
+  }
+  .Header {
+    padding: 16px 30px;
+  }
+  .Header h1 {
+    font-size: 30px;
+  }
+  .hamburger-line {
+    width: 30px;
+    height: 4px;
+  }
 }

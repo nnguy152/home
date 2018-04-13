@@ -1,24 +1,28 @@
 import React, { Component } from 'react';
 import './Header.css'
+import MenuItem from './MenuItem'
+import hamburger from './hamburger.png'
 
 class Header extends Component {
   render() {
     return (
       <div className="Header" >
-        <h1>&lt;Nhi Nguyen /&gt;</h1>
+        <a className="name-home" href='#'><h1>&lt;Nhi Nguyen /&gt;</h1></a>
         <nav>
           <ul>
-            <a href='#'><li>Home</li></a>
-            <a href='#about'><li>About</li></a>
             <div className="dropdown">
-              <li className="dropbtn">Portfolio</li>
+              <li className="dropbtn ham-db">
+                <div className="hamburger-line"/>
+                <div className="hamburger-line"/>
+                <div className="hamburger-line"/>
+              </li>
               <div className="dropdown-content">
-                <a href="#portfolio">My Projects</a>
-                <a href="#">My Art</a>
+                <MenuItem classNameText={'ham-dd'}/>
               </div>
             </div>
-            <a href='#third'><li>Resume</li></a>
-            <a href='#last'><li>Contact Me</li></a>
+
+            <MenuItem classNameText={'menu-items'}/>
+
           </ul>
         </nav>
       </div>

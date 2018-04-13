@@ -1,19 +1,22 @@
 import React from 'react'
+import './Project.css'
 
 const Project = props => {
   return (
     <div className="p">
-      <h3>&#123; {props.name} &#125;</h3>
+      <a href={props.project[1]} target="_blank"><h3>&#123; {props.project[0]} &#125;</h3></a>
       <div className="line" />
-      <img src={props.image} alt="parallax" className="gif" />
+
+      <div className="content">
+          <div className="content-overlay"></div>
+          <img src={props.project[2]} alt="parallax" className="gif content-image" />
+          <div className="content-details">
+            <p className="content-text">{props.project[3]}</p>
+            <p className="content-text"><strong>Built with: {props.project[4]}</strong></p>
+          </div>
+      </div>
+      
       <div className="line line-bottom" />
-      <p className="proj-description">
-        {props.description}
-        <br />
-        <div className="line" />
-        <br />
-        <strong>Technologies:</strong> HTML, CSS, Javascript
-      </p>
     </div>
   )
 }
