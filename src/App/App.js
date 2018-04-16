@@ -19,7 +19,7 @@ class App extends Component {
         <Parallax bgImage={img0} strength={300}>
           <div className="parallax-height" id="about">
             <h2 className="image-text first-image-text">
-              ~Hello!  🙋🏻‍♀️ Welcome to My Page~
+              ~Hello! 🙋🏻‍♀️Welcome to My Page~
               <span className="type">&nbsp;</span>
             </h2>
           </div>
@@ -27,7 +27,7 @@ class App extends Component {
 
         <About />
 
-        <Parallax bgImage={img2} strength={600}>
+        <Parallax bgImage={img2} strength={1000}>
           <div className="parallax-height-2" id="portfolio" >
             {/* <h2 className="image-text">
               hi hi TEXT HERE 2

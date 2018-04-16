@@ -11,7 +11,7 @@
   transform: translate(-50%,-50%); 
 }
 .parallax-height-2 {
-  height: 500px;
+  height: 400px;
 }
 .parallax-height-resume {
   height: 700px;
@@ -38,5 +38,20 @@
   .first-image-text {
     font-size: 20px;
     width: 318px;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .parallax-height {
+    height: 250px;
+  }
+  .image-text {
+    font-size: 15px;
+    width: 245px;
+  }
+  .image-text-resume {
+    padding: 10px;
+    width: 100px;
+    font-size: 15px;
   }
 }

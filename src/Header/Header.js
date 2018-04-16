@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './Header.css'
 import MenuItem from './MenuItem'
-import hamburger from './hamburger.png'
 
 class Header extends Component {
   render() {

@@ -14,3 +14,15 @@
 .cMe {
   color: rgb(247, 217, 227);
 }
+
+@media screen and (max-width: 415px) {
+  nav.footer { 
+    padding: 10px 0;
+  }
+  .footer a {
+    font-size: 15px;
+  }
+  .cMe {
+    font-size: 12px;
+  }
+}
