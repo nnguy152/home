@@ -11,9 +11,34 @@
   transform: translate(-50%,-50%); 
   border-radius: 10px;
 }
+.parallax-height-2 {
+  height: 500px;
+}
+.parallax-height-resume {
+  height: 700px;
+}
+.image-text-resume {
+  background-color:rgba(17, 16, 20, 0.6);
+  color: rgb(247, 217, 227);
+  padding: 15px;
+  margin: 50px auto 30px;
+  width: 100px;
+  border-radius: 10px;
+  text-align: center;
+}
 
 @media only screen and (max-width: 1100px) {
   .parallax-height {
     height: 300px;
+  }
+  .parallax-height-resume {
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .first-image-text {
+    font-size: 20px;
+    width: 318px;
   }
 }

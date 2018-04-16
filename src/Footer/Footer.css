@@ -1,16 +1,16 @@
 .footer {
   font-family: 'Orbitron';
   width: 100%;
-  padding: 1rem;
+  /* padding: 1rem; */
+  padding: 20px;
   background-color: rgb(17, 16, 20);
   text-align: center;
 }
 .footer a {
   text-decoration: none;
   color: rgb(247, 217, 227);
-  padding: 1rem;
+  padding: 10px;
 }
 .cMe {
   color: rgb(247, 217, 227);
-  padding: 2rem; 
 }
