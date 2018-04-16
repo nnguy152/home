@@ -57,7 +57,8 @@ li:hover, .dropbtn, .dropdown-content a:hover {
   background-color:rgba(17, 16, 20, 0.5);
   display: none;
   position: absolute;
-  padding-top: 20px;
+  padding-top: 25px;
+  top: 45px;
   left: -93px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
