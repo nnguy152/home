@@ -9,7 +9,6 @@
   top: 45%; 
   left: 50%; 
   transform: translate(-50%,-50%); 
-  border-radius: 10px;
 }
 .parallax-height-2 {
   height: 500px;
@@ -23,7 +22,6 @@
   padding: 15px;
   margin: 50px auto 30px;
   width: 100px;
-  border-radius: 10px;
   text-align: center;
 }
 
