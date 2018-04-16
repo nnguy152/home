@@ -54,7 +54,8 @@ li:hover, .dropbtn, .dropdown-content a:hover {
 }
 
 .dropdown-content {
-  background-color:rgba(17, 16, 20, 0.5);
+  /* background-color:rgba(17, 16, 20, 0.5); */
+  background: white;
   display: none;
   position: absolute;
   padding-top: 25px;
