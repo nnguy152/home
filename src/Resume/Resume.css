@@ -2,6 +2,13 @@
    width: 1000px;
    height: 500px;
    margin: 30px auto 30px;
+   overflow: auto;
+   -webkit-overflow-scrolling: touch;
+}
+
+.resume {
+   width: 1000px;
+   text-align: center;
 }
 
 @media screen and (max-width: 1100px) {
@@ -28,7 +35,7 @@
 @media screen and (max-width: 400px) {
    .iframe {
       width: 300px;
-      height: 550px;
+      height: 500px;
    }
    .inner {
       width: 300px;

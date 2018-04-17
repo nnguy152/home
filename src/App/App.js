@@ -48,7 +48,7 @@ class App extends Component {
         </Parallax> */}
 
 
-        <Parallax bgImage={img1} strength={500}>
+        <Parallax bgImage={img1} strength={400}>
           <div className="parallax-height-resume" id="last">
           <a href={myResume} download>
             <h2 className="image-text-resume">

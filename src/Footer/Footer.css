@@ -2,9 +2,12 @@
   font-family: 'Orbitron';
   width: 100%;
   /* padding: 1rem; */
-  padding: 20px;
+  /* padding: 20px; */
   background-color: rgb(17, 16, 20);
   text-align: center;
+}
+nav.footer {
+  padding-top: 20px;
 }
 .footer a {
   text-decoration: none;
@@ -13,6 +16,12 @@
 }
 .cMe {
   color: rgb(247, 217, 227);
+}
+
+@media screen and (max-width: 1100px) {
+  nav.footer { 
+    padding-bottom: 20px;
+  }
 }
 
 @media screen and (max-width: 415px) {
