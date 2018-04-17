@@ -21,7 +21,7 @@
   color: rgb(247, 217, 227);
   padding: 15px;
   margin: 50px auto 30px;
-  width: 100px;
+  width: 130px;
   text-align: center;
 }
 
@@ -37,7 +37,7 @@
 @media only screen and (max-width: 850px) {
   .first-image-text {
     font-size: 20px;
-    width: 318px;
+    width: 312px;
   }
 }
 
@@ -47,7 +47,7 @@
   }
   .image-text {
     font-size: 15px;
-    width: 245px;
+    width: 237px;
   }
   .image-text-resume {
     padding: 10px;

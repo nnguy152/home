@@ -24,3 +24,13 @@
       height: 400px;
    }
 }
+
+@media screen and (max-width: 400px) {
+   .iframe {
+      width: 300px;
+      height: 550px;
+   }
+   .inner {
+      width: 300px;
+   }
+}

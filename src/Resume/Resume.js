@@ -6,7 +6,7 @@ class Resume extends Component {
    render() {
       return (
          <div className="iframe">
-            <iframe className="iframe" src={resume} width="1300" height="700" />
+            <iframe className="iframe inner" src={resume} width="100%" height="700" type="application/pdf" />
          </div>
       );
    }
