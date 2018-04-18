@@ -17,6 +17,7 @@ class Portfolio extends Component {
     return (
       <div className="portfolio">
         <h1>&lt;Gallery /&gt;</h1>
+        <h1 className="galdes">Some Projects I've Done</h1>
         <section className="project-container">
           <Project project={project1} />
           <Project project={project2} />

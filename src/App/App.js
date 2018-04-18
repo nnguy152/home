@@ -5,21 +5,22 @@ import About from '../About/About'
 import Portfolio from '../Portfolio/Portfolio'
 import Resume from '../Resume/Resume'
 import Footer from '../Footer/Footer'
+import Contact from '../Contact/Contact'
 import myResume from '../Resume/Nhi-Nguyen-Resume.pdf'
 // const img0 = "https://img00.deviantart.net/780c/i/2015/019/4/e/sky_lanterns_by_wlop-d7b5nfg.jpg"
-const img0 = "https://i.pinimg.com/originals/af/5c/7d/af5c7d63820a4f8366c67f44c8522dad.jpg"
+const img0 = "https://www.pixelstalk.net/wp-content/uploads/2016/03/Sun-And-Clouds-Wallpaper-free-download.jpg"
 // const img1 = "https://pre00.deviantart.net/865d/th/pre/f/2015/101/2/9/9s_by_wlop-d8pa466.jpg"
-const img2 = "http://www.nafpaktia.com/data/wallpapers/25/808926.png"
-const img1 = "http://getwallpapers.com/wallpaper/full/d/c/9/57345.jpg"
+const img2 = "https://i.imgur.com/JWxwrR6.jpg?1"
+const img1 = "http://getwallpapers.com/wallpaper/full/6/5/5/751756-vertical-hd-texture-backgrounds-2560x1440.jpg"
 
 class App extends Component {
   render() {
     return (
       <div>
-        <Parallax bgImage={img0} strength={300}>
+        <Parallax bgImage={img0} strength={500}>
           <div className="parallax-height" id="about">
             <h2 className="image-text first-image-text">
-              ~Hello! 🙋🏻‍♀️Welcome to My Page~
+              &#123; Full-Stack Web Developer &#125;
               <span className="type">&nbsp;</span>
             </h2>
           </div>
@@ -27,7 +28,7 @@ class App extends Component {
 
         <About />
 
-        <Parallax bgImage={img2} strength={1000}>
+        <Parallax bgImage={img2} strength={200}>
           <div className="parallax-height-2" id="portfolio" >
             {/* <h2 className="image-text">
               hi hi TEXT HERE 2
@@ -59,9 +60,9 @@ class App extends Component {
           </div>
         </Parallax>
 
-        {/* <div className="about">
-          <Resume />
-        </div> */}
+        <div className="about">
+          <Contact />
+        </div>
         
         <footer>
           <Footer />
