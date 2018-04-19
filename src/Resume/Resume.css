@@ -7,41 +7,46 @@
 }
 
 .resume {
-   width: 1000px;
+   display: none;
+}
+.email {
    text-align: center;
 }
-
 @media screen and (max-width: 1100px) {
    .iframe {
       width: 850px;
-      height: 400px;
+      height: 450px;
    }
 }
 
 @media screen and (max-width: 880px) {
    .iframe {
       width: 800px;
-      height: 400px;
+      height: 450px;
    }
 }
 
 @media screen and (max-width: 800px) {
    .iframe {
       width: 600px;
-      height: 400px;
+      height: 500px;
+      margin: auto auto;
    }
 }
 
-@media screen and (max-width: 400px) {
-   .iframe {
-      width: 300px;
+@media screen and (max-width: 420px) {
+   .resume {
+      display: block;
       height: 500px;
-   }
+      width: 375px;
+      margin: 0 2px;
+    }
+    iframe {
+      display: none;
+      
+    }
    .inner {
       width: 300px;
    }
 }
 
-.email {
-   text-align: center;
-}

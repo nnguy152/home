@@ -4,7 +4,6 @@
 .image-text {
   background-color:rgba(17, 16, 20, 0.8);
   color: rgb(247, 217, 227);
-  /* color:white; */
   padding: 15px;
   position: absolute;
   top: 45%; 
@@ -49,7 +48,7 @@
   }
   .image-text {
     font-size: 15px;
-    width: 200px;
+    width: 209px;
   }
   .image-text-resume {
     padding: 10px;
