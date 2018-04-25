@@ -1,5 +1,9 @@
 /* Overlay from https://codepen.io/ArnaudBalland/pen/vGZKLr */
 
+.fadeIn {
+  top: 20%;
+}
+
 .content {
    position: relative;
    margin: 0 auto;
@@ -53,6 +57,14 @@ a, a h3 {
 .content-text {
    color: rgb(247, 217, 227);
    margin: 30px;
+}
+
+.fa-github, .fa-play-circle {
+  font-size: 40px;
+}
+
+.fa-github:hover, .fa-play-circle:hover {
+  color: #9C3F5F;
 }
 
 @media screen and (max-width: 650px) {

@@ -17,8 +17,9 @@ class App extends Component {
   render() {
     return (
       <div>
+        
         <Parallax bgImage={img0} strength={500}>
-          <div className="parallax-height" id="about">
+          <div className="parallax-height" id='about'>
             <h2 className="image-text first-image-text">
               &#123; Full-Stack Web Developer &#125;
               <span className="type">&nbsp;</span>
@@ -40,17 +41,8 @@ class App extends Component {
           <Portfolio />
         </div>
 
-        {/* <Parallax bgImage={img0} strength={500}>
-          <div className="parallax-height" id="third" >
-            <h2 className="image-text">
-              hi HIHIH TEXT THREEEE
-            </h2>
-          </div>
-        </Parallax> */}
-
-
         <Parallax bgImage={img1} strength={400}>
-          <div className="parallax-height-resume" id="last">
+          <div className="parallax-height-resume" id="resume">
           <a href={myResume} download>
             <h2 className="image-text-resume">
               &#123; Resume &#125; 
