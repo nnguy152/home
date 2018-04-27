@@ -1,0 +1,44 @@
+.contact {
+   margin: 0 auto;
+   width: 500px;
+}
+
+form {
+   display: flex;
+   flex-direction: column;
+   margin-top: 30px;
+}
+label {
+   margin-left: 5px;
+   margin-bottom: 5px;
+   font-family: 'Orbitron';
+}
+
+
+.input-name, .input-comment {
+   width: 500px;
+   font-size: 15px;
+   border: 1px solid grey;
+   border-radius: 10px;
+   padding: 10px;
+   outline: none;
+}
+.input-comment {
+   height: 120px;
+}
+.submit {
+   border: 1px solid grey;
+   width: 65px;
+   border-radius: 5px;
+   margin-left: 455px;
+   font-family: 'Orbitron';
+   font-weight: bold;
+   font-size: 15px;
+   padding: 7px;
+   background: rgb(17, 16, 20);
+   color: rgb(247, 217, 227);
+}
+.submit:hover {
+   background-color: #9C3F5F;
+   color: rgb(17, 16, 20);
+}

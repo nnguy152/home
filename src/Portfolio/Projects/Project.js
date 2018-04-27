@@ -4,7 +4,7 @@ import './Project.css'
 const Project = props => {
   return (
     <div className="p">
-      <h3>&#123; {props.project[0]} &#125;</h3>
+      <h3 className='proj-name'>&#123; {props.project[0]} &#125;</h3>
       <div className="line" />
 
       <div className="content">

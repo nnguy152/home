@@ -19,6 +19,7 @@ class About extends Component {
             level. Every new thing I learn about coding opens up the door to a
             thousand new unknowns that I can't wait to explore.</p>
           </div>
+          
           <div className="about-sections">
             <img
               src={require('../About/glasses.png')}
@@ -26,8 +27,8 @@ class About extends Component {
               className="icon"
             />
             <h3>&#123; Skills &#125;</h3>
-            <p>Including, but not limited to: HTML, CSS, JavaScript, Express.js,
-            MongoDB, Handlebars, React.js, Ruby, Ruby on Rails, and Adobe Photoshop</p>
+            <p>Including, but not limited to: HTML, CSS, JavaScript, Node.js, Express.js, 
+            MongoDB, Handlebars, React.js, Ruby & Ruby on Rails, and Adobe Photoshop.</p>
           </div>
           <div className="about-sections">
             <img
@@ -37,7 +38,7 @@ class About extends Component {
             />
             <h3>&#123; Fun &#125;</h3>
             <p>When I'm not working on projects, my favorite thing to do is
-            hang out with my dog, hike, draw, and netflix && chill. </p>
+            hang out with my dog, go hiking, draw, binge-watch Netflix shows, and geek out over new manga chapter releases. </p>
           </div>
         </section>
       </div>

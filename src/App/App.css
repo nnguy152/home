@@ -11,10 +11,10 @@
   transform: translate(-50%,-50%); 
 }
 .parallax-height-2 {
-  height: 200px;
+  height: 300px;
 }
 .parallax-height-resume {
-  height: 700px;
+  height: 750px;
 }
 .image-text-resume {
   background-color:rgba(17, 16, 20, 0.6);
