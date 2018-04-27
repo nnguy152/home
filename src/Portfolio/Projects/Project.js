@@ -13,8 +13,8 @@ const Project = props => {
           <div className="content-details fadeIn">
             <p className="content-text">{props.project[2]}</p>
             <p className="content-text"><strong>Built with: {props.project[3]}</strong></p>
-            <a className="content-text" href={props.project[4]} target="_blank"><i class="fab fa-github"></i></a>
-            <a className="content-text" href={props.project[5]} target="_blank"><i class="fas fa-play-circle"></i></a>
+            <a className="content-text" href={props.project[4]} target="_blank"><i className="fab fa-github"></i></a>
+            <a className="content-text" href={props.project[5]} target="_blank"><i className="fas fa-play-circle"></i></a>
           </div>
       </div>
       

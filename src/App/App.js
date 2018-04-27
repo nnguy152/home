@@ -14,10 +14,20 @@ const img2 = "https://i.imgur.com/JWxwrR6.jpg?1"
 const img1 = "http://getwallpapers.com/wallpaper/full/6/5/5/751756-vertical-hd-texture-backgrounds-2560x1440.jpg"
 
 class App extends Component {
+  constructor () {
+    super() 
+    this.scrollTopBtn = this.scrollTopBtn.bind(this)
+  }
+
+  scrollTopBtn () {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
   render() {
     return (
       <div>
-        
+        <button onClick={this.scrollTopBtn} id="myBtn" title="Go to top">^</button>
         <Parallax bgImage={img0} strength={500}>
           <div className="parallax-height" id='about'>
             <h2 className="image-text first-image-text">
@@ -31,9 +41,6 @@ class App extends Component {
 
         <Parallax bgImage={img2} strength={200}>
           <div className="parallax-height-2" id="portfolio" >
-            {/* <h2 className="image-text">
-              hi hi TEXT HERE 2
-            </h2> */}
           </div>
         </Parallax>
 
