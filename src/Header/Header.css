@@ -35,9 +35,12 @@ nav li {
 }
 
 /* styling for hover and dropdown list */
-li:hover, .dropbtn, .dropdown-content a:hover {
+li:hover, .dropbtn {
   color: rgb(17, 16, 20);
   background-color: #9C3F5F;
+}
+.dropdown-content a:hover {
+  display:none;
 }
 
 .dropbtn {
@@ -95,6 +98,9 @@ li:hover, .dropbtn, .dropdown-content a:hover {
   }
   .Header h1 {
     font-size: 40px;
+  }
+  li:hover, .dropbtn, .dropdown-content a:hover {
+    display: block;
   }
 }   
 
