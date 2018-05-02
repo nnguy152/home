@@ -76,3 +76,16 @@
   background: #9C3F5F;
   color: black;
 }
+
+/* .start-text {
+  overflow: hidden; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  animation: typing 5s steps(27, end);
+} */
+
+/* The typing effect */
+/* @keyframes typing {
+  from { width: 0 }
+  to { width: 430px }
+} */

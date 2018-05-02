@@ -30,7 +30,7 @@ class App extends Component {
         <button onClick={this.scrollTopBtn} id="myBtn" title="Go to top">^</button>
         <Parallax bgImage={img0} strength={500}>
           <div className="parallax-height" id='about'>
-            <h2 className="image-text first-image-text">
+            <h2 className="image-text first-image-text start-text">
               &#123; Full-Stack Web Developer &#125;
               <span className="type">&nbsp;</span>
             </h2>
