@@ -19,7 +19,7 @@ class App extends Component {
           <Route path='/resume' render={() => (<Resume />)} />
           <Route path='/contact' render={() => (<Contact />)} />
           <Route path='/home' render={() => (<Home />)} />
-          <Route path='/*' render={() => <Redirect to='/home' />} />
+          <Route exact path='/' render={() => <Redirect to='/home' />} />
         </Switch>
 
         <Particles className='parts' 
