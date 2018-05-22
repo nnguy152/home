@@ -11,8 +11,8 @@ class Portfolio extends Component {
   render() {
     return (
       <div className="portfolio">
-        <h1>&lt;Projects /&gt;</h1>
-        <h1 className="galdes">Some Work I've Done</h1>
+        <h1 className='page-h1'>&lt; Projects /&gt;</h1>
+
         <section className="project-container">
           <Project project={project1} />
           <Project project={project2} />

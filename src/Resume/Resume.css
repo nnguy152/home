@@ -1,52 +1,10 @@
-.iframe {
-   width: 900px;
-   height: 600px;
-   margin: 0 auto;
-   overflow: auto;
-   -webkit-overflow-scrolling: touch;
-}
-
 .resume {
-   display: none;
+   margin-left: 5rem;
+   top: 10%;
+   position: absolute;
+   font-size: 35px;
 }
-.email {
-   text-align: center;
+.iframe {
+  width: 900px;
+  margin-bottom: 20px;
 }
-@media screen and (max-width: 1100px) {
-   .iframe {
-      width: 850px;
-      height: 450px;
-   }
-}
-
-@media screen and (max-width: 880px) {
-   .iframe {
-      width: 800px;
-      height: 450px;
-   }
-}
-
-@media screen and (max-width: 800px) {
-   .iframe {
-      width: 600px;
-      height: 500px;
-      margin: auto auto;
-   }
-}
-
-@media screen and (max-width: 420px) {
-   .resume {
-      display: block;
-      height: 500px;
-      width: 375px;
-      margin: 0 2px;
-    }
-    iframe {
-      display: none;
-      
-    }
-   .inner {
-      width: 300px;
-   }
-}
-

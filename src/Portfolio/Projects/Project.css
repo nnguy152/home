@@ -1,5 +1,3 @@
-/* Overlay from https://codepen.io/ArnaudBalland/pen/vGZKLr */
-
 .proj-name {
   margin-top: 35px;
   margin-bottom: 5px;
@@ -53,65 +51,45 @@ a, a h3 {
    text-decoration: none;
    color: black;
 }
-.p {
-   margin: 0 auto;
- }
+
 .content-text {
-   color: rgb(247, 217, 227);
+   color: white;
    margin: 30px;
 }
 
-.fab, .fas {
+.proj-icon {
   font-size: 40px;
 }
 
-.fab:hover, .fas:hover {
-  color: #9C3F5F;
-  animation: fa-pulse 1800ms infinite;
+.proj-icon:hover {
+  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+  animation: neon2 1.5s ease-in-out infinite alternate;
 }
 
-@keyframes fa-pulse {
-  0% {
-    transform: scale(1);
+@-webkit-keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #74F9D9, 0 0 70px #74F9D9, 0 0 80px #74F9D9, 0 0 100px #74F9D9, 0 0 150px #74F9D9;
   }
-  25% {
-    transform: scale(1.2);
-  }
-  50% {
-    transform: scale(1);
-  }
-  75% {
-    transform: scale(1.2);
-  }
-  100% {
-    transform: scale(1);
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #74F9D9, 0 0 35px #74F9D9, 0 0 40px #74F9D9, 0 0 50px #74F9D9, 0 0 75px #74F9D9;
   }
 }
 
-.fadeIn {
-  top: 30%;
-}
-
-
-@media screen and (max-width: 650px) {
-  section.project-container {
-    margin-top: -15px;
-    margin-bottom: 30px;
+@-moz-keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #74F9D9, 0 0 70px #74F9D9, 0 0 80px #74F9D9, 0 0 100px #74F9D9, 0 0 150px #74F9D9;
+  }
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #74F9D9, 0 0 35px #74F9D9, 0 0 40px #74F9D9, 0 0 50px #74F9D9, 0 0 75px #74F9D9;
   }
 }
 
-@media screen and (max-width: 450px) {
-  img.gif.content-image {
-    width: 300px;
+@keyframes neon2 {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #74F9D9, 0 0 70px #74F9D9, 0 0 80px #74F9D9, 0 0 100px #74F9D9, 0 0 150px #74F9D9;
   }
-  section.project-container {
-    margin-bottom: 30px;
+  to {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #74F9D9, 0 0 35px #74F9D9, 0 0 40px #74F9D9, 0 0 50px #74F9D9, 0 0 75px #74F9D9;
   }
-  .fab, .fas {
-    font-size: 30px;
-  }
-  .content-text {
-    font-size: 12px;
-    margin: 10px;
- }
 }

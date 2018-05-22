@@ -1,0 +1,18 @@
+.home-text {
+   margin-left: 5rem;
+   font-size: 75px;
+   font-weight: bold;
+   color: white;
+   position: absolute;
+   top: 20%;
+}
+
+.hello {
+   font-size: 100px;
+   color: #74F9D9;
+   text-shadow: -3px 3px #E73557;
+}
+.fsd {
+   font-size: 30px;
+   font-weight: lighter;
+}

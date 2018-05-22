@@ -1,39 +1,22 @@
 .portfolio {
-  margin: 60px 150px;
+  margin-left: 5rem;
+  position: absolute;
+  top: 10%;
+  font-size: 35px;
+  font-weight: bold;
 }
 section {
   margin: 0 auto;
   text-align: center;
 }
-
 .proj-description {
   width: 400px;
 }
 .gif {
   width: 500px;
-  border: 2px solid #9c3f5f;
   padding: 3px;
 }
-.galdes {
-  font-size: 18px;
-  margin-bottom: 0;
-}
-.line {
-  height: 2px;
-  background: -webkit-gradient(
-    radial,
-    50% 50%,
-    0,
-    50% 50%,
-    200,
-    from(#9c3f5f),
-    to(white)
-  );
-}
-.line-bottom {
-  margin-top: -4px;
-  padding-top: 2px;
-}
+
 .project-container {
   display: flex;
   flex-wrap: wrap;

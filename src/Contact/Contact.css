@@ -1,8 +1,9 @@
 .contact {
-   margin: 0 auto;
    width: 500px;
+   position: absolute;
+   top: 10%;
+   margin-left: 5rem;
 }
-
 form {
    display: flex;
    flex-direction: column;
@@ -12,8 +13,8 @@ label {
    margin-left: 5px;
    margin-bottom: 5px;
    font-family: 'Orbitron';
+   color: white;
 }
-
 
 .input-name, .input-comment {
    width: 500px;

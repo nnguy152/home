@@ -1,71 +1,138 @@
 import React, { Component } from 'react';
-import { Parallax } from 'react-parallax';
 import './App.css';
+import Particles from 'react-particles-js'
+import Home from '../Home/Home'
 import About from '../About/About'
 import Portfolio from '../Portfolio/Portfolio'
 import Resume from '../Resume/Resume'
-import Footer from '../Footer/Footer'
 import Contact from '../Contact/Contact'
 import myResume from '../Resume/Nhi-Nguyen-Resume.pdf'
-// const img0 = "https://img00.deviantart.net/780c/i/2015/019/4/e/sky_lanterns_by_wlop-d7b5nfg.jpg"
-const img0 = "https://www.pixelstalk.net/wp-content/uploads/2016/03/Sun-And-Clouds-Wallpaper-free-download.jpg"
-// const img1 = "https://pre00.deviantart.net/865d/th/pre/f/2015/101/2/9/9s_by_wlop-d8pa466.jpg"
-const img2 = "https://i.imgur.com/JWxwrR6.jpg?1"
-const img1 = "http://getwallpapers.com/wallpaper/full/6/5/5/751756-vertical-hd-texture-backgrounds-2560x1440.jpg"
+import { Route, Link, Redirect, Switch } from 'react-router-dom'
 
 class App extends Component {
-  constructor () {
-    super() 
-    this.scrollTopBtn = this.scrollTopBtn.bind(this)
-  }
-
-  scrollTopBtn () {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-  }
-
   render() {
     return (
       <div>
-        <button onClick={this.scrollTopBtn} id="myBtn" title="Go to top">^</button>
-        <Parallax bgImage={img0} strength={500}>
-          <div className="parallax-height" id='about'>
-            <h2 className="image-text first-image-text start-text">
-              &#123; Full-Stack Web Developer &#125;
-              <span className="type">&nbsp;</span>
-            </h2>
-          </div>
-        </Parallax>
+        <Switch>
+          <Route path='/about' render={() => (<About />)} />
+          <Route path='/projects' render={() => (<Portfolio />)} />
+          <Route path='/resume' render={() => (<Resume />)} />
+          <Route path='/contact' render={() => (<Contact />)} />
+          <Route exact path='/' render={() => (<Home />)} />
+        </Switch>
 
-        <About />
+        <Particles className='parts' 
+                      params={{
+                        particles: {
+                          number: {
+                            value: 80,
+                            density: {
+                              enable: true,
+                              value_area: 1500
+                            }
+                          },
+                          color: {
+                            value: "#ffffff"
+                          },
+                          shape: {
+                            type: "circle",
+                            stroke: {
+                              width: 0,
+                              color: "#000000"
+                            },
+                            polygon: {
+                              nb_sides: 5
+                            }
+                          },
+                          opacity: {
+                            value: 0.5,
+                            random: false,
+                            anim: {
+                              enable: false,
+                              speed: 1,
+                              opacity_min: 0.1,
+                              sync: false
+                            }
+                          },
+                          size: {
+                            value: 3,
+                            random: true,
+                            anim: {
+                              enable: false,
+                              speed: 40,
+                              size_min: 0.1,
+                              sync: false
+                            }
+                          },
+                          line_linked: {
+                            enable: true,
+                            distance: 150,
+                            color: "#6c6c6c",
+                            opacity: 0.4,
+                            width: 1
+                          },
+                          move: {
+                            enable: true,
+                            speed: 1,
+                            direction: "none",
+                            random: false,
+                            straight: false,
+                            out_mode: "out",
+                            bounce: false,
+                            attract: {
+                              enable: false,
+                              rotateX: 600,
+                              rotateY: 1200
+                            }
+                          }
+                        },
+                        interactivity: {
+                          detect_on: "canvas",
+                          events: {
+                            onhover: {
+                              enable: true,
+                              mode: "grab"
+                            },
+                            onclick: {
+                              enable: true,
+                              mode: "push"
+                            },
+                            resize: true
+                          },
+                          modes: {
+                            grab: {
+                              distance: 140,
+                              line_linked: {
+                                opacity: 1
+                              }
+                            },
+                            bubble: {
+                              distance: 400,
+                              size: 40,
+                              duration: 2,
+                              opacity: 8,
+                              speed: 3
+                            },
+                            repulse: {
+                              distance: 200,
+                              duration: 0.4
+                            },
+                            push: {
+                              particles_nb: 4
+                            },
+                            remove: {
+                              particles_nb: 2
+                            }
+                          }
+                        },
+                        retina_detect: true
+                      }}/>
 
-        <Parallax bgImage={img2} strength={200}>
-          <div className="parallax-height-2" id="portfolio" >
-          </div>
-        </Parallax>
-
-        <div>
-          <Portfolio />
-        </div>
-
-        <Parallax bgImage={img1} strength={400}>
-          <div className="parallax-height-resume" id="resume">
-          <a href={myResume} download>
+          {/* <a href={myResume} download>
             <h2 className="image-text-resume">
               &#123; Resume &#125; 
             </h2>
-          </a>
-            <Resume />
-          </div>
-        </Parallax>
-
-        <div className="about">
-          <Contact />
-        </div>
-        
-        <footer>
-          <Footer />
-        </footer>
+          </a> */}
       </div>
     );
   }
