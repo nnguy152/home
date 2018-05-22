@@ -1,5 +1,5 @@
 .contact {
-   width: 500px;
+   font-size: 35px;
    position: absolute;
    top: 10%;
    margin-left: 5rem;
@@ -10,9 +10,9 @@ form {
    margin-top: 30px;
 }
 label {
+   font-size: 20px;
    margin-left: 5px;
    margin-bottom: 5px;
-   font-family: 'Orbitron';
    color: white;
 }
 
@@ -32,14 +32,45 @@ label {
    width: 65px;
    border-radius: 5px;
    margin-left: 455px;
-   font-family: 'Orbitron';
    font-weight: bold;
    font-size: 15px;
    padding: 7px;
-   background: rgb(17, 16, 20);
-   color: rgb(247, 217, 227);
+   background: black;
+   color: white;
 }
 .submit:hover {
-   background-color: #9C3F5F;
-   color: rgb(17, 16, 20);
-}
+   color: #f1f1f1;
+   -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
+   -moz-animation: neon2 1.5s ease-in-out infinite alternate;
+   animation: neon2 1.5s ease-in-out infinite alternate;
+   transition: 0.3s;
+ }
+@-webkit-keyframes neon2 {
+   from {
+     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #74F9D9, 0 0 70px #74F9D9, 0 0 80px #74F9D9, 0 0 100px #74F9D9, 0 0 150px #74F9D9;
+   }
+   to {
+     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #74F9D9, 0 0 35px #74F9D9, 0 0 40px #74F9D9, 0 0 50px #74F9D9, 0 0 75px #74F9D9;
+   }
+ }
+ 
+ @-moz-keyframes neon2 {
+   from {
+     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #74F9D9, 0 0 70px #74F9D9, 0 0 80px #74F9D9, 0 0 100px #74F9D9, 0 0 150px #74F9D9;
+   }
+   to {
+     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #74F9D9, 0 0 35px #74F9D9, 0 0 40px #74F9D9, 0 0 50px #74F9D9, 0 0 75px #74F9D9;
+   }
+ }
+ 
+ @keyframes neon2 {
+   from {
+     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #74F9D9, 0 0 70px #74F9D9, 0 0 80px #74F9D9, 0 0 100px #74F9D9, 0 0 150px #74F9D9;
+   }
+   to {
+     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #74F9D9, 0 0 35px #74F9D9, 0 0 40px #74F9D9, 0 0 50px #74F9D9, 0 0 75px #74F9D9;
+   }
+ }
+ 
+ 
+ 
