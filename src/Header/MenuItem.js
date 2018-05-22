@@ -4,7 +4,7 @@ import { Route, Link, Redirect, Switch } from 'react-router-dom'
 const MenuItem = (props) => {
    return (
       <div className={props.classNameText}>
-         <Link to='/'><li><i className="fas fa-home nav-icons"></i><b>Home</b></li></Link>
+         <Link to='/home'><li><i className="fas fa-home nav-icons"></i><b>Home</b></li></Link>
          <Link to='/about'><li><i className="fas fa-user-circle nav-icons"></i><b>About</b></li></Link>
          <Link to='/projects'><li><i className="fas fa-code-branch nav-icons"></i><b>Projects</b></li></Link>
          <Link to='/resume'><li><i className="fas fa-file-alt nav-icons"></i><b>Resume</b></li></Link>
