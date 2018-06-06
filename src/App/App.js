@@ -36,7 +36,7 @@ class App extends Component {
                             value: "#ffffff"
                           },
                           shape: {
-                            type: "circle",
+                            type: "star",
                             stroke: {
                               width: 0,
                               color: "#000000"
@@ -68,7 +68,7 @@ class App extends Component {
                           line_linked: {
                             enable: true,
                             distance: 150,
-                            color: "#6c6c6c",
+                            color: "#F5FBFF",
                             opacity: 0.4,
                             width: 1
                           },
@@ -76,10 +76,10 @@ class App extends Component {
                             enable: true,
                             speed: 1,
                             direction: "none",
-                            random: false,
+                            random: true,
                             straight: false,
                             out_mode: "out",
-                            bounce: false,
+                            bounce: true,
                             attract: {
                               enable: false,
                               rotateX: 600,

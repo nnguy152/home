@@ -2,17 +2,48 @@
    margin-left: 5rem;
    font-size: 75px;
    font-weight: bold;
-   color: white;
+   color: #414655;
    position: absolute;
    top: 20%;
+   font-family: Orbitron;
+   padding: 25px;
+   background: url('border.png') no-repeat;
+   background-size: 625px 280px;
 }
 
 .hello {
    font-size: 100px;
-   color: #74F9D9;
-   text-shadow: -3px 3px #E73557;
+   color: white;
+   background: linear-gradient(to bottom, #293542, #36587C);
+   height: 80px;
+   padding: 20px;
+   margin: 0;
 }
+
+.name {
+   font-size: 60px;
+   margin-top: 50px;
+}
+.arrow-right {
+   height: 0;
+   width: 0;
+   border-top: 10px solid transparent;
+   border-bottom: 10px solid transparent;
+   border-left: 10px solid #414655;
+ }
+
+ .fsd::before {
+    content: '';
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #414655;
+    display: inline-block;
+    height: 0;
+    vertical-align: top;
+    width: 0;
+    padding-left: 10px;
+ }
 .fsd {
    font-size: 30px;
-   font-weight: lighter;
+   margin-bottom: 0;
 }
