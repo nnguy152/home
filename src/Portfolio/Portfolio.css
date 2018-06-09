@@ -4,7 +4,22 @@
   top: 10%;
   font-size: 35px;
   font-weight: bold;
+  padding: 25px;
+  background: url('border.png') no-repeat;
+  background-size: 1105px 740px;
+  height: 700px;
 }
+.project-header {
+    font-size: 80px;
+    color: white;
+    background: linear-gradient(#293542, #36587C, #293542);
+    height: 80px;
+    padding: 40px 20px 10px 20px;
+    margin: 0;
+    width: 1015px;
+    font-family: Orbitron;
+}
+
 section {
   margin: 0 auto;
   text-align: center;
@@ -14,16 +29,14 @@ section {
 }
 .gif {
   width: 500px;
-  padding: 3px;
 }
 
 .project-container {
   display: flex;
   flex-wrap: wrap;
-}
-
-@media screen and (max-width: 630px) {
-  .portfolio {
-    margin: 0 auto;
-  }
+  padding-top: 35px;
+  background: linear-gradient(#29354286, rgba(54, 88, 124, 0.155), transparent, transparent, transparent, transparent, transparent); 
+  padding-left: 25px;
+  padding-right: 15px;
+  width: 1015px;
 }

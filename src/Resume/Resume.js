@@ -7,7 +7,7 @@ class Resume extends Component {
    render() {
       return (
          <div className='resume'>
-            <h1 className='page-h1'>&lt; Resume /&gt;</h1>
+            <h1 className='resume-header'>Resume</h1>
             <div className="iframe" >
                <iframe src={resume} width="100%" height="500" />
             </div>

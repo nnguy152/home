@@ -3,8 +3,23 @@
    top: 10%;
    position: absolute;
    font-size: 35px;
+   top: 20%;
+   padding: 25px;
+   background: url('border.png') no-repeat;
+   background-size: 953px 680px;
 }
 .iframe {
   width: 900px;
   margin-bottom: 20px;
+}
+
+.resume-header {
+  font-size: 80px;
+  color: white;
+  background: linear-gradient(#293542, #36587C, #293542);
+  height: 80px;
+  padding: 40px 20px 10px 20px;
+  margin: 0;
+  width: 862px;
+  font-family: Orbitron;
 }

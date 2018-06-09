@@ -5,6 +5,6 @@ html, body {
 }
 
 body {
-  background: linear-gradient(to bottom, white, #BEE2F8);
+  background: linear-gradient(to bottom, white, rgb(238, 247, 249), rgb(193, 223, 242), #BEE2F8, rgb(154, 190, 212), rgba(54, 88, 124));
   height: 100vh;
 }

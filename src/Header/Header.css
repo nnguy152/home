@@ -27,10 +27,12 @@
 
 .sidenav a:hover {
   color: #f1f1f1;
-  -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
-  -moz-animation: neon2 1.5s ease-in-out infinite alternate;
-  animation: neon2 1.5s ease-in-out infinite alternate;
   transition: 0.3s;
+  /* background: url(border.png) no-repeat;
+  background-size: 60px 40px;
+  background-position-x: 15px; */
+  border-left: 1px solid white;
+  padding-top: 20px;
 }
 .sidenav li b {
   display: none;
@@ -49,31 +51,5 @@
   margin-bottom: 150%;
 }
 
-@-webkit-keyframes neon2 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #74F9D9, 0 0 70px #74F9D9, 0 0 80px #74F9D9, 0 0 100px #74F9D9, 0 0 150px #74F9D9;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #74F9D9, 0 0 35px #74F9D9, 0 0 40px #74F9D9, 0 0 50px #74F9D9, 0 0 75px #74F9D9;
-  }
-}
-
-@-moz-keyframes neon2 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #74F9D9, 0 0 70px #74F9D9, 0 0 80px #74F9D9, 0 0 100px #74F9D9, 0 0 150px #74F9D9;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #74F9D9, 0 0 35px #74F9D9, 0 0 40px #74F9D9, 0 0 50px #74F9D9, 0 0 75px #74F9D9;
-  }
-}
-
-@keyframes neon2 {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #74F9D9, 0 0 70px #74F9D9, 0 0 80px #74F9D9, 0 0 100px #74F9D9, 0 0 150px #74F9D9;
-  }
-  to {
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #74F9D9, 0 0 35px #74F9D9, 0 0 40px #74F9D9, 0 0 50px #74F9D9, 0 0 75px #74F9D9;
-  }
-}
 
 

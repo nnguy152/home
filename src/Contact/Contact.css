@@ -1,23 +1,35 @@
 .contact {
    font-size: 35px;
    position: absolute;
-   top: 10%;
    margin-left: 5rem;
+   top: 20%;
+   padding: 25px;
+   background: url('border.png') no-repeat;
+   background-size: 715px 560px;
+   font-family: Orbitron;
 }
 form {
    display: flex;
    flex-direction: column;
-   margin-top: 30px;
+   padding: 30px;
+   background: linear-gradient(#29354286, rgba(54, 88, 124, 0.155), transparent, transparent, transparent, transparent, transparent); 
 }
 label {
    font-size: 20px;
    margin-left: 5px;
    margin-bottom: 5px;
-   color: white;
-}
+   color: #414655;
 
+}
+.contact-header {
+  background: linear-gradient(#293542, #36587C, #293542);
+  height: 80px;
+  padding: 40px 20px 10px 20px;
+  margin: 0;
+  width: 625px;
+}
 .input-name, .input-comment {
-   width: 500px;
+   width: 550px;
    font-size: 15px;
    border: 1px solid grey;
    border-radius: 10px;
@@ -28,49 +40,17 @@ label {
    height: 120px;
 }
 .submit {
-   border: 1px solid grey;
-   width: 65px;
-   border-radius: 5px;
-   margin-left: 455px;
+   border: none;
+   width: 78px;
+   margin-left: 490px;
    font-weight: bold;
-   font-size: 15px;
-   padding: 7px;
-   background: black;
-   color: white;
+   font-size: 20px;
+   padding: 10px;
+   color: #414655;
+   font-family: Orbitron;
 }
+
 .submit:hover {
-   color: #f1f1f1;
-   -webkit-animation: neon2 1.5s ease-in-out infinite alternate;
-   -moz-animation: neon2 1.5s ease-in-out infinite alternate;
-   animation: neon2 1.5s ease-in-out infinite alternate;
-   transition: 0.3s;
- }
-@-webkit-keyframes neon2 {
-   from {
-     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #74F9D9, 0 0 70px #74F9D9, 0 0 80px #74F9D9, 0 0 100px #74F9D9, 0 0 150px #74F9D9;
-   }
-   to {
-     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #74F9D9, 0 0 35px #74F9D9, 0 0 40px #74F9D9, 0 0 50px #74F9D9, 0 0 75px #74F9D9;
-   }
- }
- 
- @-moz-keyframes neon2 {
-   from {
-     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #74F9D9, 0 0 70px #74F9D9, 0 0 80px #74F9D9, 0 0 100px #74F9D9, 0 0 150px #74F9D9;
-   }
-   to {
-     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #74F9D9, 0 0 35px #74F9D9, 0 0 40px #74F9D9, 0 0 50px #74F9D9, 0 0 75px #74F9D9;
-   }
- }
- 
- @keyframes neon2 {
-   from {
-     text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #74F9D9, 0 0 70px #74F9D9, 0 0 80px #74F9D9, 0 0 100px #74F9D9, 0 0 150px #74F9D9;
-   }
-   to {
-     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #74F9D9, 0 0 35px #74F9D9, 0 0 40px #74F9D9, 0 0 50px #74F9D9, 0 0 75px #74F9D9;
-   }
- }
- 
- 
- 
+  background: url('blueborder.png') no-repeat;
+  background-size: 75px 35px;
+}
