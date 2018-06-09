@@ -7,7 +7,9 @@ const MenuItem = (props) => {
          <Link to='/home'><li><i className="fas fa-home nav-icons"></i><b>Home</b></li></Link>
          <Link to='/about'><li><i className="fas fa-user-circle nav-icons"></i><b>About</b></li></Link>
          <Link to='/projects'><li><i className="fas fa-code-branch nav-icons"></i><b>Projects</b></li></Link>
-         <Link to='/resume'><li><i className="fas fa-file-alt nav-icons"></i><b>Resume</b></li></Link>
+         {/* <Link to='/resume'> */}
+         <a href="https://drive.google.com/file/d/1UX3zl8bNkuI2KMjVmlcDaIxbWHRWY23J/view"><li><i className="fas fa-file-alt nav-icons"></i><b>Resume</b></li></a>
+         {/* </Link> */}
          <Link to='/contact'><li><i className="fas fa-envelope nav-icons"></i><b>Contact</b></li></Link>
 
          <a href="https://github.com/nnguy152"><li><i className="fab fa-github nav-icons"></i><b>Github</b></li></a>

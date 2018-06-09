@@ -27,13 +27,13 @@
    text-shadow: 5px 2px rgba(54, 88, 124, 0.155);
    background: linear-gradient(#29354286, rgba(54, 88, 124, 0.155), transparent, transparent); 
 }
-.arrow-right {
+/* .arrow-right {
    height: 0;
    width: 0;
    border-top: 10px solid transparent;
    border-bottom: 10px solid transparent;
    border-left: 10px solid #414655;
- }
+ } */
 
  .fsd::before {
     content: '';
@@ -49,4 +49,24 @@
 .fsd {
    font-size: 30px;
    margin-bottom: 0;
+}
+
+@media screen 
+  and (max-device-height: 750px) 
+  and (-webkit-min-device-pixel-ratio: 1) 
+{ 
+  .home-text {
+    margin-left: 0;
+    background-size: 397px 260px;
+  }
+  .hello {
+    font-size: 65px;
+  }
+  .name {
+    font-size: 30px;
+    padding: 35px 0 30px 20px;
+  }
+  .fsd {
+    font-size: 25px;
+  }
 }

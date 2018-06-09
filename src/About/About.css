@@ -6,7 +6,7 @@
   top: 20%;
   padding: 25px;
   background: url('border.png') no-repeat;
-  background-size: 715px 620px;
+  background-size: 715px 660px;
 }
 h3 {
   font-size: 20px;
@@ -28,7 +28,7 @@ h3 {
   padding-left: 25px;
   padding-right: 15px;
   width: 625px;
-  height: 440px;
+  height: 480px;
 }
 
 .about-i:nth-child(1) {
@@ -75,4 +75,39 @@ p {
   margin-top: 0;
   background: #29354286;
   color: white;
+}
+
+
+@media screen 
+  and (max-device-height: 750px) 
+  and (-webkit-min-device-pixel-ratio: 1) 
+{
+  .about {
+    margin-left: 0;
+    top: 10%;
+    background-size: 397px 640px;
+  }
+  .about-header {
+    font-size: 50px;
+    width: 310px;
+    height: 40px;
+    padding: 20px 20px 15px 20px;
+  }
+  .about-sections {
+    height: 540px;
+    width: 310px;
+  }
+  .about-i:nth-child(1) {
+    padding-top: 20px;
+  }
+  .about-i {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .skills {
+    font-size: 14px;
+  }
 }

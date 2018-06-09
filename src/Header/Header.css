@@ -24,16 +24,6 @@
   font-size: 40px;
   text-align: center;
 }
-
-.sidenav a:hover {
-  color: #f1f1f1;
-  transition: 0.3s;
-  /* background: url(border.png) no-repeat;
-  background-size: 60px 40px;
-  background-position-x: 15px; */
-  border-left: 1px solid white;
-  padding-top: 20px;
-}
 .sidenav li b {
   display: none;
   font-weight: lighter;
@@ -47,9 +37,65 @@
   display: block;
   padding-left: 5px;
 }
+.sidenav a:hover {
+  color: #f1f1f1;
+  transition: 0.3s;
+  border-left: 1px solid white;
+  padding-top: 20px;
+}
 .sidenav a:nth-child(5) {
   margin-bottom: 150%;
 }
+ul {
+  margin: 0;
+}
 
+@media screen 
+  /* and (min-device-height: 700px)  */
+  and (max-device-height: 750px) 
+  and (-webkit-min-device-pixel-ratio: 1) 
+{ 
+  li {
+    display: inline;
+  }
+  nav {
+    position: absolute;
+    left: 0;
+    width: 104%;
+    text-align: center;
+  }
+  .sidenav {
+    position: initial;
+    width: 100%;
+    padding-top: 10px;
+    height: 40px;
+   
+  }
+  .sidenav a {
+    display: inline;
+    color: white;
+    font-size: 25px;
+    padding: 0 15px 0 15px;
+  }
+  .sidenav a:nth-child(5) {
+    margin-bottom: 0;
+  }
+  .sidenav a:hover {
+    transition: none;
+    border-left: none;
+    border-bottom: 1px solid white;
+    padding-top: 0;
+  }
+  .sidenav a:hover b {
+    display: none;
+    padding-left: 0;
+  }
+  .sidenav a:hover i {
+    display: inline;
+  }
+  ul {
+    padding-left: 0;
+  }
+}
 
 

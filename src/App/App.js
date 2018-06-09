@@ -16,7 +16,7 @@ class App extends Component {
         <Switch>
           <Route path='/about' render={() => (<About />)} />
           <Route path='/projects' render={() => (<Portfolio />)} />
-          <Route path='/resume' render={() => (<Resume />)} />
+          {/* <Route path='/resume' render={() => (<Resume />)} /> */}
           <Route path='/contact' render={() => (<Contact />)} />
           <Route path='/home' render={() => (<Home />)} />
           <Route exact path='/' render={() => <Redirect to='/home' />} />

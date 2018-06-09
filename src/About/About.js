@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './About.css'
 import Skill from './Skill'
 
-const skills = ['HTML5', 'CSS3', 'JavaScript (ES5, ES6)', 'React.js', 'Handlebars.js', 'Express.js','Node.js', 'JSON', 'Ruby', 'Ruby on Rails', 'MongoDB']
+const skills = ['HTML5', 'CSS3', 'JavaScript (ES5, ES6)', 'React.js', 'Handlebars.js', 'Express.js','Node.js', 'JSON', 'Ruby', 'Ruby on Rails', 'MongoDB', 'Adobe Photoshop']
 class About extends Component {
   render() {
     return (

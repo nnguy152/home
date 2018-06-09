@@ -54,3 +54,31 @@ label {
   background: url('blueborder.png') no-repeat;
   background-size: 75px 35px;
 }
+
+@media screen 
+  and (max-device-height: 750px) 
+  and (-webkit-min-device-pixel-ratio: 1) 
+{
+  .contact {
+    top: 10%;
+    margin-left: 0;
+    background-size: 397px 480px;
+    height: 650px;
+  }
+  .contact-header {
+    font-size: 40px;
+    width: 310px;
+    height: 40px;
+    padding: 23px 20px 15px 20px;
+  }
+  form {
+    padding: 25px;
+    width: 300px;
+  }
+  .input-name, .input-comment {
+    width: 280px;
+  }
+  .input-comment {
+    height: 150px;
+ }
+}

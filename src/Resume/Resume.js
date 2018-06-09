@@ -10,6 +10,7 @@ class Resume extends Component {
             <h1 className='resume-header'>Resume</h1>
             <div className="iframe" >
                <iframe src={resume} width="100%" height="500" />
+               <img className='png' src={resume1} />
             </div>
          </div>
       );
