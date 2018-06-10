@@ -24,22 +24,8 @@
   font-family: Orbitron;
 }
 
-/* 
-@media screen 
-  and (min-device-height: 700px) 
-  and (max-device-height: 840px) 
-  and (-webkit-min-device-pixel-ratio: 1) 
-{ 
-  .resume {
-    top: 10%;
-  }
-} */
 
-@media screen 
-  /* and (min-device-height: 700px)  */
-  and (max-device-height: 750px) 
-  and (-webkit-min-device-pixel-ratio: 1) 
-{
+@media screen and (max-height: 750px) {
   .resume {
     margin-left: 0;
     top: 10%;

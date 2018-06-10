@@ -51,10 +51,7 @@
    margin-bottom: 0;
 }
 
-@media screen 
-  and (max-device-height: 750px) 
-  and (-webkit-min-device-pixel-ratio: 1) 
-{ 
+@media screen and (max-height: 750px) { 
   .home-text {
     margin-left: 0;
     background-size: 397px 260px;

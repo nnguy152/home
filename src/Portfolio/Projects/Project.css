@@ -94,10 +94,7 @@ a, a h3 {
 }
 
 
-@media screen 
-  and (max-device-height: 750px) 
-  and (-webkit-min-device-pixel-ratio: 1) 
-{
+@media screen and (max-height: 750px) {
   .white {
     width: 107%;
     height: 150px;

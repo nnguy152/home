@@ -55,10 +55,7 @@ label {
   background-size: 75px 35px;
 }
 
-@media screen 
-  and (max-device-height: 750px) 
-  and (-webkit-min-device-pixel-ratio: 1) 
-{
+@media screen and (max-height: 750px) {
   .contact {
     top: 10%;
     margin-left: 0;
